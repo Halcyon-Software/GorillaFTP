@@ -1,5 +1,7 @@
 # GorillaFTP
-An open source FTP client.
+## About
+GorillaFTP is a small, modern, free and open-source FTP client. It's made as an alternative to FileZilla and other FTP clients.
+But it's still not that powerful to compete with other FTP clients. Only an alpha version.
 
 ## Building the program from source
 1. Install [Python](https://python.org)
