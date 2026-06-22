@@ -1,0 +1,31 @@
+{
+    "file": "Файл",
+    "help": "Помощь",
+    "about": "О программе",
+    "exit": "Выход",
+
+    "connect": "Подключиться",
+    "disconnect": "Отключиться",
+
+    "upload": "Загрузить",
+    "download": "Скачать",
+    "refresh": "Обновить",
+    "up": "Назад",
+
+    "host": "Хост",
+    "port": "Порт",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+
+    "connected": "Подключено!",
+    "connection_failed": "Ошибка подключения",
+
+    "upload_complete": "Загрузка завершена",
+    "download_complete": "Скачивание завершено",
+
+    "new_connection": "Новое подключение",
+
+    "about_title": "О GorillaFTP",
+
+    "about_text": "GorillaFTP Alpha 1.1\n\nРазработанно Halcyon Software\n\nИсходный код доступен на GitHub:\nhttps://github.com/Halcyon-Software/GorillaFTP\n\nЕсли вы заплатили за эту программу, вы попались мошенникам.\nОригинальный проект бесплатный."
+}
