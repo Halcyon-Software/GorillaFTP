@@ -1,0 +1,31 @@
+{
+    "file": "File",
+    "help": "Help",
+    "about": "About",
+    "exit": "Exit",
+
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+
+    "upload": "Upload",
+    "download": "Download",
+    "refresh": "Refresh",
+    "up": "Up",
+
+    "host": "Host",
+    "port": "Port",
+    "username": "Username",
+    "password": "Password",
+
+    "connected": "Connected!",
+    "connection_failed": "Connection failed",
+
+    "upload_complete": "Upload completed",
+    "download_complete": "Download completed",
+
+    "new_connection": "New Connection",
+
+    "about_title": "About GorillaFTP",
+
+    "about_text": "GorillaFTP Alpha 1.1\n\nMade by Halcyon Software.\n\nSource code is available on GitHub:\nhttps://github.com/Halcyon-Software/GorillaFTP\n\nIf you paid for this, you were scammed.\nThe original project is free."
+}

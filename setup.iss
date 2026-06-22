@@ -3,7 +3,7 @@
 ; Non-commercial use only
 
 #define MyAppName "GorillaFTP"
-#define MyAppVersion "a1.0"
+#define MyAppVersion "1.1a"
 #define MyAppPublisher "Halcyon Software"
 #define MyAppURL "https://github.com/Halcyon-Software/GorillaFTP"
 #define MyAppExeName "client.exe"
@@ -11,7 +11,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{0606C705-DB5F-41C7-86B4-14930DBB7DB1}
+AppId={{4FB07C89-6737-4C64-9CF8-9AF72DDD806B}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -37,10 +37,10 @@ InfoAfterFile=C:\Users\FedotovDev\Downloads\GorillaFTP-AfterInstall.txt
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=C:\Users\FedotovDev\Documents\output\GFTPSetup
-OutputBaseFilename=GorillaFTPSetup
+OutputBaseFilename=gftp-setup
 SetupIconFile=C:\Users\FedotovDev\Downloads\gorillaftp.ico
 SolidCompression=yes
-WizardStyle=modern dynamic polar
+WizardStyle=modern dark polar
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -50,7 +50,6 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "C:\Users\FedotovDev\Documents\output\GorillaFTP\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\FedotovDev\Documents\output\GorillaFTP\_internal\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
