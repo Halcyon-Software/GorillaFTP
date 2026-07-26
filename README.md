@@ -5,11 +5,18 @@ But it's still not that powerful to compete with other FTP clients. Only an alph
 
 ## Building the program from source
 1. Install [Python](https://python.org)
-2. Clone the sources with GitHub Desktop
+2. Clone the sources with GitHub Desktop or this command:
+```git
+git clone https://github.com/Halcyon-Software/GorillaFTP.git
+```
 3. Open the command prompt in the folder that you copied GorillaFTP repository to
-4. Install `auto-py-to-exe` with this command: `pip install auto-py-to-exe`
-5. Enter `auto-py-to-exe` into the command prompt
-6. A window will pop up. Set up everything as you like here, but don't touch the "Advanced" tab unless you know what you're doing.
-7. Click `Compile`
-8. Wait a bit
-9. Done! You should have an `Output` folder in the folder where you cloned the repository. There is an exe file of GorillaFTP.
+4. Install `pyinstaller` with this command:
+```pip
+pip install pyinstaller
+```
+5. Run this command:
+```pip
+pyinstaller --onefile main.pyw
+```
+6. A folder called `dist` should appear, there is the EXE file of GorillaFTP inside of it.
+7. Done!
